@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SunopsisExport>
+<Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="ZGMfHcYoZyMiaMLawEt1Ng==" exportKeySalt="37100438-62d9-42fb-9c7f-3d10002fe0a7" containsCipherText="false"/>
+<Object class="com.sunopsis.dwg.dbobj.SnpAgent">
+		<Field name="AgentName" type="java.lang.String"><![CDATA[OracleDIAgent-Assurance]]></Field>
+	<Field name="AgentName2" type="java.lang.String">null</Field>
+	<Field name="ApplicationName" type="java.lang.String"><![CDATA[oraclediagent-Assurance]]></Field>
+	<Field name="Classpath" type="java.lang.String">null</Field>
+	<Field name="EngineType" type="java.lang.String"><![CDATA[ODI.OA]]></Field>
+	<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2022-04-04 22:55:40.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[ADMINSPA]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[b82b4197-f65f-458d-9dc9-6c0e50264387]]></Field>
+	<Field name="HadoopLogLifespan" type="java.lang.String">null</Field>
+	<Field name="HadoopLogPollFrequency" type="java.lang.String">null</Field>
+	<Field name="HadoopLogSchedFrequency" type="java.lang.String">null</Field>
+	<Field name="HostName" type="java.lang.String"><![CDATA[ODI-ASSUR1-DEV.claro.com.co]]></Field>
+	<Field name="HostPort" type="com.sunopsis.sql.DbInt"><![CDATA[8120]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
+	<Field name="IAgent" type="com.sunopsis.sql.DbInt"><![CDATA[4]]></Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IEss" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2022-06-01 23:30:16.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[ADMINSPA]]></Field>
+	<Field name="MaxSess" type="com.sunopsis.sql.DbInt"><![CDATA[1000]]></Field>
+	<Field name="MaxThread" type="com.sunopsis.sql.DbInt"><![CDATA[2000]]></Field>
+	<Field name="MaxThreadsSess" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="Protocol" type="java.lang.String"><![CDATA[http]]></Field>
+	<Field name="SbCacheMaxEntries" type="com.sunopsis.sql.DbInt"><![CDATA[1000]]></Field>
+	<Field name="SbCacheMaxIdleTime" type="com.sunopsis.sql.DbInt"><![CDATA[600]]></Field>
+	<Field name="SchedCleanupHh" type="java.lang.String">null</Field>
+	<Field name="SchedCleanupMm" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpAgentProp">
+		<Field name="EngineType" type="java.lang.String"><![CDATA[ODI.OA]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[d89dd721-c9e3-4828-81bd-ce87fe47f00b]]></Field>
+	<Field name="IAgent" type="com.sunopsis.sql.DbInt"><![CDATA[4]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[DATASRV_WRKREP_TIMEOUT]]></Field>
+	<Field name="PropValue" type="java.lang.String"><![CDATA[80000]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpAgentProp">
+		<Field name="EngineType" type="java.lang.String"><![CDATA[ODI.OA]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[479dc699-d699-4072-a96c-fd905233bf89]]></Field>
+	<Field name="IAgent" type="com.sunopsis.sql.DbInt"><![CDATA[4]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[KEEPALIVE_INTERVAL_SECS]]></Field>
+	<Field name="PropValue" type="java.lang.String"><![CDATA[60]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_AGENT.4]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[b82b4197-f65f-458d-9dc9-6c0e50264387]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[OracleDIAgent-Assurance]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_AGENT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[23]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[12.2.1]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[05.02.02.09]]></Field>
+</Object>
+</SunopsisExport>
